@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Genny README</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="text-center">Genny README</h1>
+          <p class="text-center">Generate a Professional README.md file for your GitHub project with a single click.</p>
+        </div>
+      </div>
+    </div>
+     <!-- Form to get user input -->
+    <form id="form">
+      <label for="repoName">Project Title</label>
+      <input type="text" id="repoName" name="repoName" placeholder="Epic title here..." required />
+
+      <label for="githubUsername">GitHub Username</label>
+      <input type="text" id="githubUsername" placeholder="username here..." name="githubUsername" required />
+
+      <label for="fileName">File Name</label>
+      <input type="text" id="fileName" name="fileName" placeholder="README" required />
+
+      <button type="submit" value="Create README" style="font-size:24px" class="btn btn-primary" id="button">Create README <i class="fa fa-download"></i></button>
+    </form>
+    <script src="./assets/js/lib/genMD.js"></script>
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
