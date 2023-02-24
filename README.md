@@ -15,7 +15,6 @@ Genny README is a user-friendly web application that allows you to quickly and e
 
 - [Project repo](https://github.com/shaynefw/GennyREADME)
 - [Project deployed link](https://shaynefw.github.io/GennyREADME/)
-- [Project Video Demo]()
 
 ## Usage
 
