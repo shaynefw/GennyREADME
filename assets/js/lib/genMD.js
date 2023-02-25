@@ -39,7 +39,7 @@ function generateREADME(data) {
 
 ## Questions
   
-If you have any questions you can reach me through my [github profile](https://github.com/${data.githubUsername}).
+If you have any questions you can reach me by...
   `;
 }
 
