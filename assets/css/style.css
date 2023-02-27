@@ -39,3 +39,10 @@ input {
   font-size: 1.5em;
   margin-top: 1em;
 }
+
+#clearBtn {
+  display: inline-block;
+  width: 100%;
+  font-size: 1.5em;
+  margin-top: 1em;
+}
